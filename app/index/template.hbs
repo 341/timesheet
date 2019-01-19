@@ -1,0 +1,24 @@
+
+{{#each months as |month|}}
+    <table class="table table-bordered mb-4">
+        <thead>
+        <tr>
+            <th colspan="6" class="text-center">
+                {{moment-format (concat  month '-01-' year) 'MMMM'}} - {{year}}
+            </th>
+        </tr>
+        <tr>
+            <td>#Nr</td>
+            <td>Dita</td>
+            <td>Pazari</td>
+            <td>TEB / Dep</td>
+            <td>TEB / Ter</td>
+            <td>Dyani</td>
+        </tr>
+
+        </thead>
+
+        {{days-in-month month=month}}
+
+    </table>
+{{/each}}
