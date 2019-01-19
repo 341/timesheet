@@ -2,10 +2,10 @@
   "name": "timesheet",
   "version": "0.0.0",
   "private": true,
-  "description": "Small description for timesheet goes here",
-  "repository": "",
+  "description": "List Months and Days on Month as List",
+  "repository": "https://github.com/341/timesheet/",
   "license": "MIT",
-  "author": "",
+  "author": "Eroll Maxhuni",
   "directories": {
     "doc": "doc",
     "test": "tests"

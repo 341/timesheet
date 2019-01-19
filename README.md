@@ -1,7 +1,8 @@
 # timesheet
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Simple app lists months and days of month on list.
+
+![alt 'timesheet'](https://erollmaxhuni.com/wp-content/uploads/2019/01/timesheet.png)
 
 ## Prerequisites
 
