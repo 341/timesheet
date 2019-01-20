@@ -5,6 +5,18 @@ const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 module.exports = function(defaults) {
   let app = new EmberApp(defaults, {
     // Add options here
+    minifyJS: {
+      enabled: true
+    },
+    minifyCSS: {
+      enabled: true
+    },
+    sourcemaps: {
+      enabled: false
+    },
+    'ember-cli-babel': {
+      includePolyfill: true
+    },
     sassOptions: {
       includePaths: [
         'node_modules/bootstrap/scss',
